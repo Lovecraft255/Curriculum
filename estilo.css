@@ -158,3 +158,37 @@ h2 {
 #contacto a:hover {
   background-color: #555;
 }
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .desc {
+    width: 100%;
+  }
+
+  .perfil {
+    width: 50%;
+    height: 50%;
+  }
+
+  .skills,
+  .technologies {
+    width: 90%;
+  }
+
+  #proyectos li {
+    width: 80%;
+  }
+
+  #contacto li {
+    width: 90%;
+  }
+}
